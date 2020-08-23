@@ -1,5 +1,6 @@
 body {
     background-color: #eaf6f6;
+    line-height: 1.15; 
 }
 
 hr {
@@ -20,9 +21,4 @@ h3 {
 
 strong {
     color: #f3466b;
-}
-
-em {
-    line-height: 1.25;
-    font-size: 1.05rem;
 }
