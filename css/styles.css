@@ -1,6 +1,7 @@
 body {
     background-color: #eaf6f6;
-    line-height: 1.15; 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5; 
 }
 
 hr {
@@ -13,12 +14,21 @@ hr {
 
 h1 {
     color: #28b3b3;
+    font-family: 'Pacifico', cursive;
 }
 
 h3 {
     color: #2db173;
 }
 
+a {
+    text-decoration: none;
+}
+
 strong {
     color: #f3466b;
+}
+
+.page-link {
+    text-decoration: underline;
 }
