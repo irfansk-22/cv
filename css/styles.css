@@ -54,6 +54,18 @@ footer {
     margin-top: 1.5rem;
 }
 
+.container {
+    display: flex;
+}
+
+.intro {
+    margin: 4.65rem auto auto 1.65rem;
+}
+
+.profile-img {
+    margin: 1.5rem 0 1.3rem 1.15rem; 
+}
+
 .page-link {
     color: green;
     display: block;
@@ -78,4 +90,19 @@ footer {
 
 .btn:hover {
     background-color: #2db173;
+}
+
+/* Media Query */
+@media (max-width: 650px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .profile-img {
+        margin: 1rem auto 1rem .5rem;
+    }
+
+    .intro {
+        margin: 0 auto .75rem .5rem;
+    }
 }
