@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #f0f8f8;
+    background-color: #f2f8f8;
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
 }
@@ -59,7 +59,7 @@ footer {
 }
 
 .intro {
-    margin: 4.65rem auto auto 1.65rem;
+    margin: 4.25rem auto auto 1.75rem;
 }
 
 .role {
@@ -67,7 +67,7 @@ footer {
 }
 
 .profile-img {
-    margin: 1.5rem 0 1.3rem 1rem;
+    margin: 1.5rem 0 1.3rem 0;
 }
 
 .link {
@@ -82,7 +82,7 @@ footer {
 
 /*********** FOOTER ***********/
 .page-link {
-    color: green;
+    color: rgb(0, 116, 67);
     display: block;
     font-size: 1.05rem;
     padding: 7px 14px;
@@ -96,16 +96,16 @@ footer {
 }
 
 .btn {
-    border: 2px solid #2db173;
+    border: 2px solid #2db189;
     border-radius: 5px;
-    background-color: #f0f8f8;
+    background-color: #f2f8f8;
     padding: 0;
     margin-right: 0.35rem;
     transition: all 0.3s ease-out;
 }
 
 .btn:hover {
-    background-color: #2db173;
+    background-color: #2db189;
 }
 
 /*********** MEDIA QUERY SECTION ***********/
